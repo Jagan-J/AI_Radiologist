@@ -6,9 +6,9 @@ Diseases and injuries to the bone are the major contributing factors in causing 
 Dataset used in this project is called MURA. MURA is one of the largest public radiographic image datasets. MURA is a dataset of musculoskeletal radiographs consisting of 14,863 studies from 12,173 patients, with a total of 40,561 multi-view radiographic images. Each belongs to one of seven standard upper extremity radiographic study types: elbow, finger, forearm, hand, humerus, shoulder, and wrist. 
 
 ## Data Analysis
-+-------------------------------+
+
 |Body_Part |	Label | Img_Count	|
-+-------------------------------+
+|----------|--------|-----------|
 |ELBOW 	   |   0 	  |   2925    |
 |          |   1 	  |   2006    |
 |FINGER 	 |   0 	  |   3138    |
@@ -23,7 +23,7 @@ Dataset used in this project is called MURA. MURA is one of the largest public r
 |          |   1 	  |   4168    |
 |WRIST 	   |   0 	  |   5765    |
 |          |   1 	  |   3987    |
-+-------------------------------+
+
 
 ## Image Preprocessing
 The most of the X_Ray image has more black space and X_Ray content is located at the center of the image. So, i need only th eX-Ray content & will eliminate the unwanted areas. To do this, i build a method called "Content Based Image Retrieval using edge detection"
