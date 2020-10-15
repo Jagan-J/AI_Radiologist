@@ -34,6 +34,7 @@ STEP 3: Edge Finder (using canny)<br/>
 STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)<br/>
 
 BEFORE IMAGE PROCESSING:
+![Image](location of image in repo.type)
 
 AFTER IMAGE PROCESSING:
 
