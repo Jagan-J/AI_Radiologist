@@ -36,18 +36,14 @@ STEP 4: Based on th edge detected, cropping the image (Content Based Image Retri
 ### BEFORE IMAGE PROCESSING:<br/>
 <br/>
 ![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before1.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before2.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before3.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before4.PNG)
+
+
 <br/>
 <br/>
 
 ### AFTER IMAGE PROCESSING:<br/>
 <br/>
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after1.png)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after2.png)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after3.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after4.PNG)
+
 <br/>
 <br/>
 ## Modelling
