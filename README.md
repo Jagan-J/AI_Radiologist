@@ -34,7 +34,6 @@ STEP 3: Edge Finder (using canny)<br/>
 STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)<br/>
 
 ### BEFORE IMAGE PROCESSING:<br/>
-<br/>
 ![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before1.PNG)
 
 
