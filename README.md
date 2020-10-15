@@ -26,9 +26,9 @@ Dataset used in this project is called MURA. MURA is one of the largest public r
 
 
 ## Image Preprocessing
-The most of the X_Ray image has more black space and X_Ray content is located at the center of the image. So, i need only th eX-Ray content & will eliminate the unwanted areas. To do this, i build a method called "Content Based Image Retrieval using edge detection"
+The most of the X_Ray image has more black space and X_Ray content is located at the center of the image. So, I need only the X-Ray content & will eliminate the unwanted areas. To do this, I build a method called "Content Based Image Retrieval using edge detection"
 
-STEP 1: Morph close ((OpenCV lib)
+STEP 1: Morph close ((OpenCV lib)<br/>
 STEP 2: Adaptive histogram equalization (step 1 & 2 helps to suppress the text in th eimage)
 STEP 3: Edge Finder (using canny)
 STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)
