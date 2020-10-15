@@ -29,9 +29,9 @@ Dataset used in this project is called MURA. MURA is one of the largest public r
 The most of the X_Ray image has more black space and X_Ray content is located at the center of the image. So, I need only the X-Ray content & will eliminate the unwanted areas. To do this, I build a method called "Content Based Image Retrieval using edge detection"
 
 STEP 1: Morph close ((OpenCV lib)<br/>
-STEP 2: Adaptive histogram equalization (step 1 & 2 helps to suppress the text in th eimage)
-STEP 3: Edge Finder (using canny)
-STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)
+STEP 2: Adaptive histogram equalization (step 1 & 2 helps to suppress the text in th eimage)<br/>
+STEP 3: Edge Finder (using canny)<br/>
+STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)<br/>
 
 BEFORE IMAGE PROCESSING:
 
@@ -46,11 +46,11 @@ TRAIN ACCURACY : 90% VAL ACCURACY: 80%
 STEP 1: Create a model that map the input to the activation layer of last convolution layer to final class prediction
 INPUT IMG: 
 
-STEP 2: Compute the gradient of the top predicted class for our input image
-STEP 3: Get the gradient of the top predicted class with regard to the output feature map of the last conv layer
-STEP 4: We multiply each channel in the feature map array by "how important this channel is" with regard to the top predicted class
-STEP 5: The channel-wise mean of the resulting feature map is our heatmap of class activation
-STEP 6: Now Generate the class activation heatmap
+STEP 2: Compute the gradient of the top predicted class for our input image<br/>
+STEP 3: Get the gradient of the top predicted class with regard to the output feature map of the last conv layer<br/>
+STEP 4: We multiply each channel in the feature map array by "how important this channel is" with regard to the top predicted class<br/>
+STEP 5: The channel-wise mean of the resulting feature map is our heatmap of class activation<br/>
+STEP 6: Now Generate the class activation heatmap<br/>
 HEAT MAP:
 
 STEP 7: Superimpose the heatmap on original image
