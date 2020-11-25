@@ -47,16 +47,19 @@ TRAIN ACCURACY : 90% VAL ACCURACY: 80%
 ## Visualizing the abnormal area using GradCam
 STEP 1: Create a model that map the input to the activation layer of last convolution layer to final class prediction
 INPUT IMG: 
-
+![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/BEFORE.PNG)
+<br>
 STEP 2: Compute the gradient of the top predicted class for our input image<br/>
 STEP 3: Get the gradient of the top predicted class with regard to the output feature map of the last conv layer<br/>
 STEP 4: We multiply each channel in the feature map array by "how important this channel is" with regard to the top predicted class<br/>
 STEP 5: The channel-wise mean of the resulting feature map is our heatmap of class activation<br/>
 STEP 6: Now Generate the class activation heatmap<br/>
-HEAT MAP:
-
+HEAT MAP:<br>
+![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/HEATMAP.PNG)
+<br>
 STEP 7: Superimpose the heatmap on original image
-RESULT IMG:
+RESULT IMG:<br>
+![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/AFTER.PNG)
 
 
 
