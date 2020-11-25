@@ -46,7 +46,7 @@ TRAIN ACCURACY : 90% VAL ACCURACY: 80%
 
 ## Visualizing the abnormal area using GradCam
 STEP 1: Create a model that map the input to the activation layer of last convolution layer to final class prediction
-INPUT IMG: 
+INPUT IMG: <br>
 ![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/BEFORE.PNG)
 <br>
 STEP 2: Compute the gradient of the top predicted class for our input image<br/>
