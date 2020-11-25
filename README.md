@@ -33,20 +33,10 @@ STEP 2: Adaptive histogram equalization (step 1 & 2 helps to suppress the text i
 STEP 3: Edge Finder (using canny)<br/>
 STEP 4: Based on th edge detected, cropping the image (Content Based Image Retrieval using edge detection)<br/>
 
-### BEFORE IMAGE PROCESSING:<br/>
+### BEFORE AND AFTER IMAGE PROCESSING:<br/>
 ![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before1.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before2.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before3.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/before4.PNG)
 
-<br/>
-<br/>
 
-### AFTER IMAGE PROCESSING:<br/>
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after1.png)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after2.png)<br>
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after3.PNG)
-![Image](https://github.com/Jagan-J/AI_Radiologist/blob/master/images/after4.PNG)
 <br/>
 <br/>
 ## Modelling
